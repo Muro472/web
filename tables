@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <table border="2px" width="1000px">
+            <tr>
+                <td colspan="2">1111</td>
+                <td>22</td>
+                <td>33</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td colspan="2">66</td>
+                <td>77</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>aa</td>
+                <td colspan="2">bb</td>
+                <td>cc</td>
+            </tr>
+            <tr>
+                <td>dd</td>
+                <td colspan="3">rr</td>
+                <td>tt</td>
+            </tr>
+        </table>
+        <p></p>
+        <table border="2px" width="1000px">
+            <tr>
+                <td>111</td>
+                <td rowspan="2">222</td>
+                <td>333</td>
+            </tr>
+            <tr>
+                <td rowspan="2">444</td>
+                <td>555</td>
+            </tr>
+            <tr>
+                <td rowspan="2">666</td>
+                <td>777</td>
+            </tr>
+            <tr>
+                <td>888</td>
+            </tr>
+            <tr>
+                <td colspan="2">999</td>
+            </tr>
+        </table>
+        <p></p>
+        <table border="2px" width="1000px">
+            <tr>
+                <td>111</td>
+                <td rowspan="2">222</td>
+                <td>333</td>
+                <td rowspan="3">444</td>
+            </tr>
+            <tr>
+                <td>555</td>
+                <td rowspan="3">666</td>
+            </tr>
+            <tr>
+                <td>66</td>
+                <td>77</td>
+            </tr>
+        </table>
+    </body>
+</html>
